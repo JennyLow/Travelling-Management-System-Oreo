@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16F699A2-2961-48B3-A8A5-96E0A940E011}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication15</RootNamespace>
+    <AssemblyName>WindowsFormsApplication15</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer login.Designer.cs">
+      <DependentUpon>Customer login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flight finalisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flight finalisation.Designer.cs">
+      <DependentUpon>Flight finalisation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flights payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flights payment.Designer.cs">
+      <DependentUpon>flights payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotels.Designer.cs">
+      <DependentUpon>Hotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels cont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotels cont.Designer.cs">
+      <DependentUpon>Hotels cont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Holiday payments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Holiday payments.Designer.cs">
+      <DependentUpon>Holiday payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Holiday packages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Holiday packages.Designer.cs">
+      <DependentUpon>Holiday packages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOOPDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IOOPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IOOPDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IOOPDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager login.Designer.cs">
+      <DependentUpon>Manager login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register new customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register new customer.Designer.cs">
+      <DependentUpon>Register new customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main menu.Designer.cs">
+      <DependentUpon>Main menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flights.Designer.cs">
+      <DependentUpon>Flights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KL 2 Lang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KL 2 Lang.Designer.cs">
+      <DependentUpon>KL 2 Lang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KL 2 Pen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KL 2 Pen.Designer.cs">
+      <DependentUpon>KL 2 Pen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin login.Designer.cs">
+      <DependentUpon>Admin login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KL 2 Kuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KL 2 Kuan.Designer.cs">
+      <DependentUpon>KL 2 Kuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Customer login.resx">
+      <DependentUpon>Customer login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flight finalisation.resx">
+      <DependentUpon>Flight finalisation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flights payment.resx">
+      <DependentUpon>flights payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotels.resx">
+      <DependentUpon>Hotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotels cont.resx">
+      <DependentUpon>Hotels cont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Holiday payments.resx">
+      <DependentUpon>Holiday payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Holiday packages.resx">
+      <DependentUpon>Holiday packages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager login.resx">
+      <DependentUpon>Manager login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register new customer.resx">
+      <DependentUpon>Register new customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main menu.resx">
+      <DependentUpon>Main menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flights.resx">
+      <DependentUpon>Flights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KL 2 Lang.resx">
+      <DependentUpon>KL 2 Lang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KL 2 Pen.resx">
+      <DependentUpon>KL 2 Pen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin login.resx">
+      <DependentUpon>Admin login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KL 2 Kuan.resx">
+      <DependentUpon>KL 2 Kuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="IOOPDataSet.xsc">
+      <DependentUpon>IOOPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IOOPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IOOPDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IOOPDataSet.xss">
+      <DependentUpon>IOOPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IOOPDataSet1.xsc">
+      <DependentUpon>IOOPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="IOOPDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IOOPDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IOOPDataSet1.xss">
+      <DependentUpon>IOOPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IOOP.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
